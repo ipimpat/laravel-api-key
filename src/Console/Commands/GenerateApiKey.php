@@ -1,8 +1,8 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Console\Commands;
+namespace Ipimpat\LaravelApiKey\Console\Commands;
 
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
+use Ipimpat\LaravelApiKey\Models\ApiKey;
 use Illuminate\Console\Command;
 
 class GenerateApiKey extends Command
@@ -10,7 +10,7 @@ class GenerateApiKey extends Command
     /**
      * Error messages
      */
-    const MESSAGE_ERROR_INVALID_NAME_FORMAT = 'Invalid name.  Must be a lowercase alphabetic characters, numbers and hyphens less than 255 characters long.';
+    const MESSAGE_ERROR_INVALID_NAME_FORMAT = 'The name must be a lowercase alphabetic characters, numbers, hyphens and dots and less than 255 characters long.';
     const MESSAGE_ERROR_NAME_ALREADY_USED   = 'Name is unavailable.';
 
     /**

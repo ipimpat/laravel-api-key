@@ -1,6 +1,6 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Models;
+namespace Ipimpat\LaravelApiKey\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -14,7 +14,7 @@ class ApiKey extends Model
     const EVENT_NAME_DEACTIVATED = 'deactivated';
     const EVENT_NAME_DELETED     = 'deleted';
 
-    protected static $nameRegex = '/^[a-z0-9-]{1,255}$/';
+    protected static $nameRegex = '/^[^\.][a-z0-9-\.]{1,255}[^\.]$/';
 
     protected $table = 'api_keys';
 

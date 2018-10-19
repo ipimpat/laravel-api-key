@@ -1,10 +1,10 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Http\Middleware;
+namespace Ipimpat\LaravelApiKey\Http\Middleware;
 
 use Closure;
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
-use Ejarnutowski\LaravelApiKey\Models\ApiKeyAccessEvent;
+use Ipimpat\LaravelApiKey\Models\ApiKey;
+use Ipimpat\LaravelApiKey\Models\ApiKeyAccessEvent;
 use Illuminate\Http\Request;
 
 class AuthorizeApiKey

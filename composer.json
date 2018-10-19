@@ -1,5 +1,5 @@
 {
-    "name": "ejarnutowski/laravel-api-key",
+    "name": "ipimpat/laravel-api-key",
     "description": "Authorize requests to your Laravel application with API keys",
     "keywords": ["api", "api key", "authentication", "authorization", "laravel"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Elliott Jarnutowski",
             "email": "e@jarno.co"
+        },        
+        {
+            "name": "Kim Henriksen",
+            "email": "kh@ipimp.at"
         }
     ],
     "minimum-stability": "stable",
@@ -15,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ejarnutowski\\LaravelApiKey\\": "src"
+            "Ipimpat\\LaravelApiKey\\": "src"
         }
     },
     "extra": {
