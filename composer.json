@@ -7,6 +7,10 @@
         {
             "name": "Elliott Jarnutowski",
             "email": "e@jarno.co"
+        },        
+        {
+            "name": "Kim Henriksen",
+            "email": "kh@ipimp.at"
         }
     ],
     "minimum-stability": "stable",
