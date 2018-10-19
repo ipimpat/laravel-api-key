@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ejarnutowski\\LaravelApiKey\\": "src"
+            "Ipimpat\\LaravelApiKey\\": "src"
         }
     },
     "extra": {
