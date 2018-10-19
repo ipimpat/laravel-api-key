@@ -7,7 +7,7 @@ Laravel API Key Auth
 
 ## Installation
 
-Run `composer require ejarnutowski/laravel-api-key`.
+Run `composer require ipimpat/laravel-api-key`.
 
 In your `config/app.php` file, add the Laravel API Key service provider to the end of the `providers` array.
 
